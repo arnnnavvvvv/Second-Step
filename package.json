@@ -1,0 +1,22 @@
+{
+    "name": "hyper-local-disaster-relief",
+    "version": "1.0.0",
+    "description": "A MERN project for hyperlocal disaster relief management with resource allocation",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "dev": "nodemon server/server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongodb": "^6.5.0",
+        "mongoose": "^5.13.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
